@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+body
+{
+    overflow-x: hidden;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+#menu-h
+{
+  list-style: none;
+  padding: 0;  
+  background-color: rgb(255, 255, 255);
+}
+
+#menu-h li
+{
+    display: inline;
+}
+
+#menu-h li a {
+    position: relative;
+    left: 980px;
+    color: #000000;
+    padding: 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+#menu-h a:hover 
+{
+    color: #2E10DD;
+}
+.imgpr {
+    width: 774px;
+    height: auto;
+    position: relative;
+    left: 652px;
+}
+.titulo 
+{
+    color: #2E10E3;
+    margin-top: -540px;
+    margin-left: 207px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+.textoti {
+    margin-top: -23px;
+    padding: 34px;
+    margin-left: 172px;
+    word-wrap: normal;
+    width: 459px;
+    font-family: 'Open Sans', sans-serif;
+}
+.leanmore {
+    top: 34px;
+    margin-left: 198px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-width: 3px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 30px;
+    padding: 10px 37px;
+}
+.leanmore:hover
+{
+    color: white;
+    background-color: #E142DC;
+}
+
+.fotospg {
+    width: 60%;
+    margin: 552px auto;
+    display: block;
+    display: grid;
+    grid-template-columns: 300px 316px 68px;
+    gap: 10px;
+}
+
+.fts
+{
+    width: 300px;
+    height: 300px ;
+}
+.rosa {
+    margin: -1262px 523px;
+    width: 464px;
+    height: 790px;
+    background-color: #E142DC;
+}
+.fund {
+    margin-top: 1336px;
+    height: 891px;
+}
+.subtitu 
+{
+    width: 10%;
+    margin: -1161px auto;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
